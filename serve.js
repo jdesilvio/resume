@@ -13,7 +13,10 @@ var theme = require("./index.js");
 var path = require("path");
 var fs = require("fs");
 
-var port = 8888;
+//var port = 8888;
+var port = process.env.OPENSHIFT_NODEJS_PORT;
+var ip = process.env.OPENSHIFT_NODEJS_IP;
+
 http.createServer(function(req, res) {
     var picture = resume.basics.picture.replace(/^\//, "");
     if (picture && req.url.replace(/^\//, "") === picture.replace(/^.\//, "")) {
@@ -38,7 +41,7 @@ http.createServer(function(req, res) {
         });
         res.end(render());
     }
-}).listen(port);
+}).listen(port, ip);
 
 console.log("Preview: http://localhost:8888/");
 console.log("Serving..");
