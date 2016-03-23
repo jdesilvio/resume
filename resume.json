@@ -34,7 +34,7 @@
       "position":"Global Operations Project Manager/Developer – Global Data Department",
       "website":"http://bloomberg.com",
       "startDate":"2011-05-01",
-      "endDate":"Present",
+      "endDate":"2016-03-22",
       "highlights":[
         "Collaborate with C-suite executives to design and implement new data models and workflows",
         "Process engineering with desperate data sources in an HDFS, Kafka and internal tooling environment",
@@ -67,12 +67,12 @@
       ]
     },
     {
-      "company":"Portfolio/Side Project",
+      "company":"T206.io",
       "position":"Creator/Developer",
       "website":"http://t206.io",
       "startDate":"2015-06-20",
-      "endDate":"Present",
-      "summary":"A portfolio site, a side project, a fantastic hobby - T206.io was developed to implement learned skills around a central theme, the T206 baseball card set from the early 1900's which provides an extremely interesting dataset.",
+      "endDate":"2016-03-22",
+      "summary":"A portfolio site, a side project, a fantastic hobby - T206.io was developed to implement learned skills around a central theme, the T206 baseball card set from the early 1900's which provides an extremely interesting dataset. https://github.com/jdesilvio/monster",
       "highlights":[
         "Database architecture - PostgreSQL (AWS RDS) and MongoDB",
         "Front-End Development - Ruby on Rails, HTML, CSS/SASS, and JavaScript",
