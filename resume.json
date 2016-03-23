@@ -1,24 +1,26 @@
 {
-  "basics": {
+  "basics":{
     "name":"John Anthony DeSilvio, Jr.",
-    "label": "Developer",
-    "picture": "",
+    "label":"Developer",
+    "picture":"",
     "email":"john.desilvio@yahoo.com",
     "phone":"856-287-9082",
-    "website": "http://johndesilvio.com",
-    "summary": "Ambitious, self-taught, full-stack developer, obsessed with learning new things",
-    "location": {
-      "address": "108 Park Place Drive",
-      "postalCode": "NJ 08002",
-      "city": "Cherry Hill",
-      "countryCode": "US",
-      "region": "New Jersey"
+    "website":"http://johndesilvio.com",
+    "summary":"Ambitious, self-taught, full-stack developer, obsessed with learning new things",
+    "location":{
+      "address":"108 Park Place Drive",
+      "postalCode":"NJ 08002",
+      "city":"Cherry Hill",
+      "countryCode":"US",
+      "region":"New Jersey"
     },
-    "profiles": [{
-      "network": "GitHub",
-      "username": "jdesilvio",
-      "url": "https://github.com/jdesilvio"
-    }]
+    "profiles":[
+      {
+        "network":"GitHub",
+        "username":"jdesilvio",
+        "url":"https://github.com/jdesilvio"
+      }
+    ]
   },
   "work":[
     {
@@ -29,13 +31,11 @@
           "position":"Global Operations Project Manager/Developer – Global Data Department",
           "period":"March 2011 - Present",
           "summary":"",
-          "responsibilities":[
+          "highlights":[
             "Collaborate with C-suite executives to design and implement new data models and workflows",
             "Process engineering with desperate data sources in an HDFS, Kafka and internal tooling environment",
             "Data munging, analysis and visualization - R Programming Language and D3.js",
-            "Process and workflow automation; general scripting - Python"
-          ],
-          "skills":[
+            "Process and workflow automation; general scripting - Python",
             "Initiated relationship, participated in contract negotiations and currently coordinating a global rollout of upwork.com's Enterprise Solution",
             "Engineering a generic workflow model which cuts data capture and processing costs by 75% - automating the launching of jobs on CrowdFlower.com and gigwork.net, getting job results and pushing to databases",
             "Analyzing customer service tickets using clustering algorithms in R to decrease resolution time by auto-routing",
@@ -74,10 +74,7 @@
           "position":"Developer",
           "period":"June 2015",
           "summary":"A portfolio site, a side project, a fantastic hobby - T206.io was developed to implement learned skills around a central theme, the T206 baseball card set from the early 1900's which provides an extremely interesting dataset.",
-          "responsibilities":[
-
-          ],
-          "skills":[
+          "highlights":[
             "Database architecture - PostgreSQL (AWS RDS) and MongoDB",
             "Front-End Development - Ruby on Rails, HTML, CSS/SASS, and JavaScript",
             "DevOps, Deployment and Version Control - AWS, Heroku, Docker and Git",
@@ -125,10 +122,11 @@
   ],
   "education":[
     {
-      "school":"Villanova University",
-      "location":"Villanova, PA",
-      "degree":"Master of Science in Finance",
-      "graduated":"2007-05-01",
+      "institution":"Villanova University",
+      "area":"Finance",
+      "studyType":"Master of Science",
+      "startDate":"2006-06-01",
+      "endDate":"2007-05-01",
       "courses":[
         "Valuation",
         "Stochastic Processes",
@@ -138,11 +136,11 @@
       ]
     },
     {
-      "school":"Lehigh University",
-      "location":"Bethlehem, PA",
-      "degree":"Bachelor of Science in Mechanical Engineering",
-      "minor":"Minor in Economics",
-      "graduated":"2005-05-01",
+      "institution":"Lehigh University",
+      "area":"Mechanical Engineering",
+      "degree":"Bachelor of Science",
+      "startDate":"2001-08-01",
+      "endDate":"2005-05-01",
       "courses":[
         "Calculus III",
         "Nanotechnology",
@@ -152,10 +150,11 @@
       ]
     },
     {
-      "school":"Lehigh in Prague",
-      "location":"Prague, Czech Republic",
-      "degree":"International Business and Economics",
-      "graduated":"2003-08-01",
+      "institution":"Lehigh in Prague",
+      "area":"International Business and Economics",
+      "degree":"Minor",
+      "startDate":"2003-06-01",
+      "endDate":"2003-08-01",
       "courses":[
 
       ]
@@ -163,82 +162,78 @@
   ],
   "skills":[
     {
-      "skill":"Adobe Photoshop",
+      "name":"Adobe Photoshop",
       "level":""
     },
     {
-      "skill":"Gimp",
+      "name":"Gimp",
       "level":""
     },
     {
-      "skill":"Bloomberg",
+      "name":"Bloomberg",
       "level":""
     },
     {
-      "skill":"Python",
+      "name":"Python",
       "level":""
     },
     {
-      "skill":"R Programming Language",
+      "name":"R Programming Language",
       "level":""
     },
     {
-      "skill":"VBA",
+      "name":"PostgreSQL",
       "level":""
     },
     {
-      "skill":"PostgreSQL",
+      "name":"Ruby",
       "level":""
     },
     {
-      "skill":"Ruby",
+      "name":"Ruby on Rails",
       "level":""
     },
     {
-      "skill":"Ruby on Rails",
+      "name":"CSS",
       "level":""
     },
     {
-      "skill":"CSS",
+      "name":"HTML",
       "level":""
     },
     {
-      "skill":"HTML",
+      "name":"Heroku",
       "level":""
     },
     {
-      "skill":"Heroku",
-      "level":""
-    },
-    {
-      "skill":"AWS",
+      "name":"AWS",
       "level":""
     }
   ],
   "interests":[
     {
-      "interest":"GTD"
+      "name":"GTD"
     },
     {
-      "interest":"Traveling"
+      "name":"Traveling"
     },
     {
-      "interest":"Art"
+      "name":"Art"
     },
     {
-      "interest":"Philadelphia Sports"
+      "name":"Philadelphia Sports"
     },
     {
-      "interest":"Poker"
+      "name":"Poker"
     },
     {
-      "interest":"Piano"
+      "name":"Piano"
     },
     {
-      "interest":"Woodworking"
+      "name":"Woodworking"
     },
     {
-      "interest":"Financial Markets and Investing"
+      "name":"Financial Markets and Investing"
     }
   ]
 }
